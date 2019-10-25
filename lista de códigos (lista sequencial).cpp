@@ -93,7 +93,7 @@ int getPosicao(t_lista * lista, t_elemento dado) {
  * @param lista ponteiro para a lista, a lista ja deve ter sido inicializada
  * @param pos   posicao do elemento, a partir do qual sera iniciado o deslocamento.
  *
- * @return Falso(0) se a posição for invalida ou se a lista estiver cheia, caso contrario, retorna Verdadeiro(1).
+ * @return Falso(0) se a posiÃ§Ã£o for invalida ou se a lista estiver cheia, caso contrario, retorna Verdadeiro(1).
  */
 int deslocaDireita(t_lista * lista, int pos) {
     int i;
@@ -111,7 +111,7 @@ int deslocaDireita(t_lista * lista, int pos) {
  * @param pos   posicao do elemento, a partir do qual sera iniciado o deslocamento.
  * @param dado  elemento a ser inserido
  *
- * @return Falso(0) se a posição for invalida ou se a lista estiver cheia, caso contrario, retorna Verdadeiro(1).
+ * @return Falso(0) se a posiÃ§Ã£o for invalida ou se a lista estiver cheia, caso contrario, retorna Verdadeiro(1).
  */
  
 int inserir (t_lista * lista, int pos, t_elemento dado) {
@@ -130,7 +130,7 @@ int inserir (t_lista * lista, int pos, t_elemento dado) {
  * @param lista ponteiro para a lista, a lista ja deve ter sido inicializada
  * @param pos   posicao do elemento, a partir do qual sera iniciado o deslocamento.
  *
- * @return 0 se a posição for invalida ou se a lista estiver cheia, caso contrario, retorna 1.
+ * @return 0 se a posiÃ§Ã£o for invalida ou se a lista estiver cheia, caso contrario, retorna 1.
  */
 int deslocaEsquerda(t_lista * lista, int pos) {
     int i;
@@ -146,7 +146,7 @@ int deslocaEsquerda(t_lista * lista, int pos) {
  * @param lista ponteiro para a lista, a lista ja deve ter sido inicializada
  * @param pos   posicao do elemento, a partir do qual sera iniciado o deslocamento.
  *
- * @return Falso(0) se a posição for invalida ou se a lista estiver cheia, caso contrario, retorna Verdadeiro(1).
+ * @return Falso(0) se a posiÃ§Ã£o for invalida ou se a lista estiver cheia, caso contrario, retorna Verdadeiro(1).
  */
 int remover (t_lista *lista, int pos) {
     if ( (pos > lista->n) || (pos < 0) )
