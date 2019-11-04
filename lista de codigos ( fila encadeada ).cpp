@@ -152,14 +152,14 @@ int main(){
 
         switch(controle){
             case 1:
-				printf("\nfila criada com sucesso\n");
+		printf("\nfila criada com sucesso\n");
                 break;
             case 2:
                 if(isVazia(fila1) == 1){
-                	printf("\nA fila esta vazia\n");	
-				}else {
-					printf("\na fila esta cheia\n");
-			    }
+                printf("\nA fila esta vazia\n");	
+		}else {
+			printf("\na fila esta cheia\n");
+		}
                 break;
             case 3:
                 printf("digite um dado: "); 
@@ -167,8 +167,8 @@ int main(){
                 aux = inserir(fila1, valor1);
                 if(aux) printf("\nInserido com sucesso!\n");
                 else {
-                	printf("\nERROR !\n");
-				}
+                 printf("\nERROR !\n");
+		}
                 break;
             case 4:
                 valor1 = remover(fila1);
@@ -178,7 +178,7 @@ int main(){
                 imprimirFila(fila1);
                 break;
             case 6:
-				apagartudo(fila1);
+		apagartudo(fila1);
                 break;
         }
         system("pause");
